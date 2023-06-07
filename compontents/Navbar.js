@@ -25,6 +25,11 @@ const Navbar = () => {
                         Whitepaper
                     </Button>
                 </Box>
+                <Box rounded={'md'} >
+                    <Button colorScheme='gray' variant='outline' fontSize='lg' p={5} size={'lg'}>
+                        Docs
+                    </Button>
+                </Box>
 
                 <Box rounded={'md'} size='lg'>
                     <Darkmode />
