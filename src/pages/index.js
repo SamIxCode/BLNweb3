@@ -27,7 +27,7 @@ import {
 import { ArrowUpIcon } from "@chakra-ui/icons";
 import NavbarContainer from "../../compontents/NavbarContainer";
 const inter = Inter({ subsets: ["latin"] });
-import SmallCentered  from "../../compontents/FooterComponent";
+import SmallCentered from "../../compontents/FooterComponent";
 export default function Home() {
   return (
     <>
@@ -180,7 +180,7 @@ export default function Home() {
                       </Box>
                     </Box>
                     <Box width={"800px"} mx={8} pl={7}>
-                      <Image src={"./assets/blnNetworkImage.png"} />
+                      <Image src={("/assets/blnNetworkImage.png")} />
                     </Box>
                   </Stack>
                 </CardBody>
@@ -241,7 +241,7 @@ export default function Home() {
                       </Box>
                     </Box>
                     <Box width={"800px"} mx={8} pl={7}>
-                      <Image src={"./assets/blnNFTImage.png"} />
+                      <Image src={"/assets/blnNFTImage.png"} />
                     </Box>
                   </Stack>
                 </CardBody>
@@ -290,7 +290,7 @@ export default function Home() {
                       </Box>
                     </Box>
                     <Box width={"800px"} mx={8} pl={7}>
-                      <Image src={"./assets/blnAppImage.png"} />
+                      <Image src={"/assets/blnAppImage.png"} />
                     </Box>
                   </Stack>
                 </CardBody>
@@ -301,7 +301,7 @@ export default function Home() {
           </Box>
           <SmallCentered />
         </Box>
-        
+
       </Container>
     </>
   );
