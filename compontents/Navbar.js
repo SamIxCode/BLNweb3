@@ -13,7 +13,13 @@ const Navbar = () => {
 
 
                 <Box rounded={'md'} >
-                    <Button colorScheme='gray' variant='outline' fontSize='auto' p={5} size={'lg'}>
+                    <Button as={"a"} colorScheme='gray' variant='outline' fontSize='auto' p={5} size={'lg'} href={"/"}>
+                        Home
+                    </Button>
+                </Box>
+
+                <Box rounded={'md'} >
+                    <Button as={"a"} colorScheme='gray' variant='outline' fontSize='auto' p={5} size={'lg'} href={"/about"}>
                         About
                     </Button>
                 </Box>
@@ -21,12 +27,12 @@ const Navbar = () => {
 
 
                 <Box rounded={'md'} >
-                    <Button colorScheme='gray' variant='outline' fontSize='lg' p={5} size={'lg'}>
+                    <Button as={"a"} colorScheme='gray' variant='outline' fontSize='lg' p={5} size={'lg'} href={'https://whitepaper.io/coin/rebalancenetwork'} target='_blank'>
                         Whitepaper
                     </Button>
                 </Box>
                 <Box rounded={'md'} >
-                    <Button colorScheme='gray' variant='outline' fontSize='lg' p={5} size={'lg'}>
+                    <Button as={"a"} colorScheme='gray' variant='outline' fontSize='lg' p={5} size={'lg'}>
                         Docs
                     </Button>
                 </Box>

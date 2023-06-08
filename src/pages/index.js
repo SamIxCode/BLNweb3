@@ -31,7 +31,7 @@ import SmallCentered from "../../compontents/FooterComponent";
 export default function Home() {
   return (
     <>
-      <Container maxW={"6xl"}
+      <Container maxW={"7xl"}
       >
         <NavbarContainer />
         <Box w="100%" h={"800px"}>
@@ -179,8 +179,8 @@ export default function Home() {
                         </Text>
                       </Box>
                     </Box>
-                    <Box width={"800px"} mx={8} pl={7}>
-                      <Image src={("/assets/blnNetworkImage.png")} />
+                    <Box width={"300px"} mx={8} pl={7} >
+                      <Image maxW={'200px'} src={("/assets/blnNetworkImage.png")} />
                     </Box>
                   </Stack>
                 </CardBody>
@@ -241,7 +241,7 @@ export default function Home() {
                       </Box>
                     </Box>
                     <Box width={"800px"} mx={8} pl={7}>
-                      <Image src={"/assets/blnNFTImage.png"} />
+                      <Image maxW={'300px'} src={"/assets/blnNFTImage.png"} />
                     </Box>
                   </Stack>
                 </CardBody>
@@ -290,7 +290,7 @@ export default function Home() {
                       </Box>
                     </Box>
                     <Box width={"800px"} mx={8} pl={7}>
-                      <Image src={"/assets/blnAppImage.png"} />
+                      <Image maxW={'300px'} src={"/assets/blnAppImage.png"} />
                     </Box>
                   </Stack>
                 </CardBody>

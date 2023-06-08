@@ -46,7 +46,7 @@ const SocialButton = ({ children, label, href }) => {
 export default function SmallCentered() {
   return (
     <Box
-    rounded={20}
+      rounded={20}
       bg={useColorModeValue("light.50", "dark.900")}
       color={useColorModeValue("light.700", "dark.200")}
     >
